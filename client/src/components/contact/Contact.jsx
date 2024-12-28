@@ -9,6 +9,7 @@ const Contact = ({state}) => {
             const resumeCid = await contract.methods.resumeLink().call();
             setResume("https://gateway.pinata.cloud/ipfs/"+resumeCid);
         }
+        //contract
         contract && resumeDetails();
     },[state])
     
