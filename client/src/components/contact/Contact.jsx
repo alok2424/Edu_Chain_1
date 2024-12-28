@@ -12,6 +12,7 @@ const Contact = ({state}) => {
         //contract
         //contract2
         //contract3
+        //contract4
         contract && resumeDetails();
     },[state])
     
