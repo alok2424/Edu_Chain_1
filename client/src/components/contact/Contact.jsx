@@ -10,6 +10,7 @@ const Contact = ({state}) => {
             setResume("https://gateway.pinata.cloud/ipfs/"+resumeCid);
         }
         //contract
+        //contract2
         contract && resumeDetails();
     },[state])
     
