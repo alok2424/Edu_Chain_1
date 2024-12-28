@@ -9,7 +9,7 @@ const Experience = ({state}) => {
     useEffect(()=>{
         const {contract}=state;
         const educationDetails=async()=>{
-            const education = await contract.methods.allEducationDetails().call();
+            const education = await contract.methods.allEductationDetails().call();
             setEducation(education);
         }
         contract && educationDetails();

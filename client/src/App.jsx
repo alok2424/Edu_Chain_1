@@ -9,9 +9,11 @@ import Contact from "./components/contact/Contact";
 import "./index.css";
 function App() {
   const [state,setState]=useState({
-    web3:null,
+     web3:null,
     contract:null
-  })
+   })
+
+   
   const saveState=(state)=>{
     console.log(state);
     setState(state);
