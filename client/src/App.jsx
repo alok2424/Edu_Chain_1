@@ -6,6 +6,9 @@ import Projects from "./components/projects/Projects";
 import Skills from "./components/skills/Skills";
 import Experience from "./components/experience/Experience";
 import Contact from "./components/contact/Contact";
+import Reclaim from "./components/Reclaim_verification/Reclaim";
+import VerifyUdemy from "./components/Reclaim_verification/VerifyUdemy";
+import "./App.css";
 import "./index.css";
 function App() {
   const [state,setState]=useState({
@@ -28,7 +31,14 @@ function App() {
       <Skills />
       <Experience state={state} />
       <Contact state={state} />
+     
+      <div className="reclaim">
+        <div> <Reclaim /> </div>
+        <div> <VerifyUdemy/> </div>
+      
+      </div>
       <Handles />
+     
     </>
   );
 }

@@ -1,15 +1,5 @@
-OLD_CONTRACT_ADDRESS_EDUCHAIN=0x73511669fd4dE447feD18BB79bAFeAC93aB7F31f
-CID-QmQnHQ2gLTH69uwUs9CLt3jVjn8kfkRvim9AbPXYB2rfZ
-
-REACT_APP_EDUCHAIN_NETWORK_RPC_URL="https://open-campus-codex-sepolia.drpc.org"
-REACT_APP_EDUCHAIN_CHAIN_ID=656476
-REACT_APP_EDUCHAIN_DEPLOYED_SMART_CONTRACT_ADDRESS="0xA7c8B0D74b68EF10511F27e97c379FB1651e1eD2"
-
-APPICATION_ID="0x073bE16ee1b286304dDb9dadb3AF506CD4E4059f"
-APPICATION_SECRET_KEY="0xf3db37e3fd921a94fd1f0bdef22143ddfd74b15b9b7d23265cb781bee0425abb"
-
-Step_1=npm install @reclaimprotocol/js-sdk
-Step_2:
+//LinkedIn - User Profile Details
+//Twitter Follow Check Finquarium
 
 import { useState } from 'react';
 import QRCode from 'react-qr-code';
@@ -26,9 +16,9 @@ function ReclaimDemo() {
     // Your credentials from the Reclaim Developer Portal
     // Replace these with your actual credentials
 
-    const APP_ID = '0x073bE16ee1b286304dDb9dadb3AF506CD4E4059f';
-    const APP_SECRET = '0xf3db37e3fd921a94fd1f0bdef22143ddfd74b15b9b7d23265cb781bee0425abb';
-    const PROVIDER_ID = '6d3f6753-7ee6-49ee-a545-62f1b1822ae5';
+    const APP_ID = '0x33B39eC61A9D576D6ee1Aa8CF772128EdeB30065';
+    const APP_SECRET = '0x75c6c10219444271b0fe027afb8671ddc812f2b22b663c7bc00cef08ba7a068f';
+    const PROVIDER_ID = '71901e6a-0548-414f-affb-c60d66e9648g';
  
     // Initialize the Reclaim SDK with your credentials
     const reclaimProofRequest = await ReclaimProofRequest.init(APP_ID, APP_SECRET, PROVIDER_ID);
@@ -69,12 +59,12 @@ function ReclaimDemo() {
  
   return (
     <>
-      <button onClick={getVerificationReq}>Get Verification Request</button>
+      <button onClick={getVerificationReq}>Check Twitter Follower</button>
 
       {/* Display QR code when URL is available */}
 
       {requestUrl && (
-        <div style={{ margin: '20px 0' }}>
+        <div style={{ margin: '20px 20px' }}>
           <QRCode value={requestUrl} />
         </div>
       )}

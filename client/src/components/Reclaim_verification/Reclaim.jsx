@@ -1,15 +1,3 @@
-OLD_CONTRACT_ADDRESS_EDUCHAIN=0x73511669fd4dE447feD18BB79bAFeAC93aB7F31f
-CID-QmQnHQ2gLTH69uwUs9CLt3jVjn8kfkRvim9AbPXYB2rfZ
-
-REACT_APP_EDUCHAIN_NETWORK_RPC_URL="https://open-campus-codex-sepolia.drpc.org"
-REACT_APP_EDUCHAIN_CHAIN_ID=656476
-REACT_APP_EDUCHAIN_DEPLOYED_SMART_CONTRACT_ADDRESS="0xA7c8B0D74b68EF10511F27e97c379FB1651e1eD2"
-
-APPICATION_ID="0x073bE16ee1b286304dDb9dadb3AF506CD4E4059f"
-APPICATION_SECRET_KEY="0xf3db37e3fd921a94fd1f0bdef22143ddfd74b15b9b7d23265cb781bee0425abb"
-
-Step_1=npm install @reclaimprotocol/js-sdk
-Step_2:
 
 import { useState } from 'react';
 import QRCode from 'react-qr-code';
@@ -69,12 +57,12 @@ function ReclaimDemo() {
  
   return (
     <>
-      <button onClick={getVerificationReq}>Get Verification Request</button>
+      <button onClick={getVerificationReq}>Verify User's Github</button>
 
       {/* Display QR code when URL is available */}
 
       {requestUrl && (
-        <div style={{ margin: '20px 0' }}>
+        <div style={{ margin: '20px 20px' }}>
           <QRCode value={requestUrl} />
         </div>
       )}
