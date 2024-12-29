@@ -27,7 +27,7 @@ const Hero = ({state}) => {
         <section className="hero">
         <div className="container">
             <div className="hero-text">
-                <p><span>Kshitij </span>
+                <p><span>Alok</span>
                     is a Full-Stack Blockchain Developer From India.</p>
                 <h1>I develop decentralised apps in web3 space.</h1>
                 <h3>{description}</h3>
@@ -37,7 +37,7 @@ const Hero = ({state}) => {
                     <ModalBody>
                             <Row className="text-align">
                                 <label htmlFor="" toggle={() => setModal(!modal)}>
-                                    Mail Id - Kshitij123@gmail.com
+                                    Mail Id - alokg49371@gmail.com
                                 </label>
 
                             </Row>
